@@ -20,22 +20,22 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="{{챗봇이미지}}" alt="" /></span>
-							<h1>{{챗봇이름}}</h1>
-							<p>{{챗봇 설명}}</p>
+							<span class="avatar"><img src="https://danbee.ai/platform/img/chatbot/img_profile_db_1.png" alt="" /></span>
+							<h1>까망씨</h1>
+							<p>고급 커피를 홍보하는 귀여운 고양이</p>
 						</header>
 						<hr />
-						<h2>저는 이런 챗봇이에요.</h2>
+						<h2>저는 생각보다 친절한 고양이 챗봇이에요.</h2>
 						<form method="post" action="#">
 							<div class="fields">
 								<div class="field">
-									페르소나1
+									성별 : 남
 								</div>
 								<div class="field">
-									페르소나2
+									나이 : 3세
 								</div>
 								<div class="field">
-									페르소나3
+									활동지역 : 대한민국 
 								</div>
 							</div>
 							
@@ -83,33 +83,34 @@
 
 			<script>
 				
-    if (document.addEventListener) {
-        // Mozilla, Opera, Webkit
-        document.addEventListener("DOMContentLoaded", function () {
-            document.removeEventListener("DOMContentLoaded", arguments.callee, false);
-            htmlReady();
-        }, false);
-    } else if (document.attachEvent) {
-        // Internet Explorer
-        document.attachEvent("onreadystatechange", function () {
-            if (document.readyState === "complete") {
-                document.detachEvent("onreadystatechange", arguments.callee);
-                htmlReady();
-            }
-        });
-    }
-    var htmlReadyTimer = null;
-    //DOM이 모두 로드 되었을 때
-    function htmlReady () {
-        htmlReadyTimer = setTimeout(function() {
-            if (frogueReadyFlag) {
-                froguePushEvent('landingEvent', {event_name: '', event_value1: '', event_value2: ''});
-                htmlReadyTimer = null;
-            } else {
-                htmlReady();
-            }
-        }, 500);
-    }
+				/*로드 될때 나오는 메시지*/
+				    if (document.addEventListener) {
+					// Mozilla, Opera, Webkit
+					document.addEventListener("DOMContentLoaded", function () {
+					    document.removeEventListener("DOMContentLoaded", arguments.callee, false);
+					    htmlReady();
+					}, false);
+				    } else if (document.attachEvent) {
+					// Internet Explorer
+					document.attachEvent("onreadystatechange", function () {
+					    if (document.readyState === "complete") {
+						document.detachEvent("onreadystatechange", arguments.callee);
+						htmlReady();
+					    }
+					});
+				    }
+				    var htmlReadyTimer = null;
+				    //DOM이 모두 로드 되었을 때
+				    function htmlReady () {
+					htmlReadyTimer = setTimeout(function() {
+					    if (frogueReadyFlag) {
+						froguePushEvent('landingEvent', {event_name: '', event_value1: '', event_value2: ''});
+						htmlReadyTimer = null;
+					    } else {
+						htmlReady();
+					    }
+					}, 500);
+				    }
 				
 				function click(v) {
 					
