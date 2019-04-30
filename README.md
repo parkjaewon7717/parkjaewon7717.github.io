@@ -1,12 +1,16 @@
 # 설치 방법
 1. github 가입 ( https://github.com )
 2. 우측상단의 [+] 선택 후 Import repository 를 선택함
-3. url 입력 부분에 https://github.com/jams777/chatbotlanding.git 입력
+3. url 입력 부분에 https://github.com/Moonkil/Moonkil.github.io.git 입력
 4. Name(이름에) 가입한 아이디를 활용하여 {아이디}.github.io 라는 이름으로 생성
 5. 퍼블릭으로 생성
 
 # 수정 방법
 index.html 파일의 내용을 수정
+
+1. 챗봇 이름, 프로필 정보 수정하기
+2. 챗봇 ID 적용
+3. event에 맞게 danbee.Ai에 적용하기
 
 
 # 아래 라이센스에 따름
