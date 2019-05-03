@@ -2,7 +2,7 @@
 1. github 가입 ( https://github.com )
 2. 우측상단의 [+] 선택 후 Import repository 를 선택함
 3. url 입력 부분에 https://github.com/Moonkil/Moonkil.github.io.git 입력
-4. Name(이름에) 가입한 아이디를 활용하여 {아이디}.github.io 라는 이름으로 생성 (Moonkil.github.io 와 같이 나오게 됩니다.)
+4. Name(이름에) 가입한 아이디를 활용하여 {아이디}.github.io 라는 이름으로 생성 (Moonkil.github.io에 접속할 수 있게됩니다.)
 5. 퍼블릭으로 생성
 
 # 수정 방법
